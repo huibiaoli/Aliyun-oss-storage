@@ -99,7 +99,7 @@ class AliOssAdapter extends AbstractAdapter
         $ssl,
         $isCname = false,
         $debug = false,
-        $cdnDomain,
+        $cdnDomain = '',
         $prefix = null,
         array $options = []
     )
